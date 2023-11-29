@@ -39,7 +39,7 @@ def print_predictions(preds):
 model = load_model()
 
 
-st.title('Вебинар 4 классификации изображений в облаке Streamlit')
+st.title('URFU SF классификации изображений в облаке Streamlit')
 img = load_image()
 result = st.button('Распознать изображение')
 if result:
